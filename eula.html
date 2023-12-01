@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Satorna | 用户协议</title>
+    <link rel="icon" href="https://satorna.github.io/image/webIcon.png">
+    <style>
+        @charset "utf-8";
+
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: rgb(226, 226, 236);
+            justify-content: center;
+            align-items: center;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        #nav {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 75px;
+            background-color: rgba(27, 46, 94, 0.957);
+            position: fixed;
+        }
+
+        #navname1 {
+            margin-left: 50px;
+            font-weight: 900;
+            background-color: transparent;
+            text-shadow: 0 0 10px rgba(30, 144, 255, 0.95),
+                0 0 20px rgba(30, 144, 255, 0.80),
+                0 0 30px rgba(30, 144, 255, 0.65),
+                0 0 40px rgba(30, 144, 255, 0.4),
+                0 0 100px rgba(30, 144, 255, 0.2),
+                0 0 200px rgba(30, 144, 255, 0.1),
+                0 0 300px rgba(30, 144, 255, 0.05);
+            color: #ffffff;
+            font-size: 30px;
+        }
+
+        #navname2 {
+            box-shadow: 0 0 10px rgba(30, 144, 255, 0.25),
+                0 0 20px rgba(30, 144, 255, 0.25),
+                0 0 30px rgba(30, 144, 255, 0.15),
+                0 0 40px rgba(30, 144, 255, 0.1),
+                0 0 100px rgba(30, 144, 255, 0.1),
+                0 0 200px rgba(30, 144, 255, 0.05),
+                0 0 300px rgba(30, 144, 255, 0.05);
+            /*color: #fff;*/
+            font-weight: 900;
+            width: 300px;
+            height: 50px;
+            font-size: 30px;
+            /*background-color:rgb(102,153,255);*/
+            border: 0px solid #000;
+            /*-webkit-text-stroke:1px #1e90ff;*/
+            border-radius: 12px;
+            /*border-image: linear-gradient(to top right, #ffa500, #2d3436, #1565c0) 1;*/
+            text-shadow: 0 0 10px #1e90ff,
+                0 0 20px #1e90ff,
+                0 0 30px #1e90ff,
+                0 0 40px #1e90ff,
+                0 0 100px #1e90ff,
+                0 0 200px #1e90ff,
+                0 0 300px #1e90ff,
+                0 0 400px #1e90ff;
+        }
+
+        #navbut1,
+        #navbut2,
+        #navbut3,
+        #navbut4,
+        #navbut5,
+        #navbut6,
+        #navbut7,
+        #navbut8,
+        #navbut9 {
+            width: 80px;
+            color: white;
+            position: absolute;
+            top: 0px;
+            height: 75px;
+            background: transparent;
+            border: none;
+            position: stalic;
+            outline: none;
+        }
+
+        #navbut1 {
+            margin-left: 5px;
+        }
+
+        #navbut2 {
+            margin-left: 85px;
+        }
+
+        #navbut3 {
+            margin-left: 165px;
+        }
+
+        #navbut4 {
+            margin-left: 245px;
+        }
+
+        #navbut5 {
+            margin-left: 325px;
+        }
+
+        #navbut6 {
+            margin-left: 405px;
+        }
+
+        #navbut7 {
+            margin-left: 485px;
+        }
+
+        #navbut8 {
+            margin-left: 565px;
+        }
+
+        #navbut9 {
+            margin-left: 645px;
+        }
+
+        #navbut1:hover,
+        #navbut2:hover,
+        #navbut3:hover,
+        #navbut4:hover,
+        #navbut5:hover,
+        #navbut6:hover,
+        #navbut7:hover,
+        #navbut8:hover,
+        #navbut9:hover {
+            font-weight: 900;
+            color: white;
+            font-weight: 900;
+            border: 2px solid #fff;
+            box-shadow: 0 0 10px rgba(30, 144, 255, 0.25),
+                0 0 20px rgba(30, 144, 255, 0.25),
+                0 0 30px rgba(30, 144, 255, 0.25),
+                0 0 40px rgba(30, 144, 255, 0.25),
+                0 0 100px rgba(30, 144, 255, 0.25),
+                0 0 200px rgba(30, 144, 255, 0.25),
+                0 0 300px rgba(30, 144, 255, 0.1),
+                0 0 400px rgba(30, 144, 255, 0.05);
+            border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+        }
+
+        #navbut_user {
+            font-size: 15px;
+            font-weight: 100;
+            position: absolute;
+            top: 50%;
+            margin-top: -22.5px;
+            right: 50px;
+            position: stalic;
+            width: 100px;
+            color: rgb(255, 255, 255);
+            height: 45px;
+            background-color: rgba(23, 38, 78, 0.957);
+            border-radius: 50px;
+            border: none;
+            position: stalic;
+        }
+
+        button:hover {
+            cursor: pointer;
+        }
+
+        #text {
+            font-weight: 100;
+            color: rgb(0, 0, 0);
+        }
+
+        sup {
+            font-size: 10px;
+        }
+
+        #title {
+            line-height: 0px;
+        }
+
+        /*#texte{margin-left:15%;}*/
+        #title_don {
+            font-size: 40px;
+            text-indent: 24px;
+        }
+
+        #title_chi {
+            font-size: 30px;
+            text-indent: 24px;
+        }
+
+        #texte_don {
+            font-size: 18px;
+            text-indent: 24px;
+        }
+
+        #texte_chi {
+            font-size: 15px;
+            text-indent: 24px;
+            line-height: 32px;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+
+        #bottom_div {
+            background-color: #00000133;
+            text-align: center;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            font-size: 15px;
+            -webkit-text-stroke: 0.2px rgba(65, 92, 227, 0.651);
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 5px rgba(30, 144, 255, 0.5);
+        }
+
+        #br {
+            height: 5px;
+        }
+
+        #bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -webkit-filter: blur(10px);
+            filter: blur(10px);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        .intro {
+            border: 3px solid #1e90ff;
+            width: 83.33%;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(30, 144, 255, 0.25),
+                0 0 20px rgba(30, 144, 255, 0.25),
+                0 0 30px rgba(30, 144, 255, 0.25),
+                0 0 40px rgba(30, 144, 255, 0.25),
+                0 0 100px rgba(30, 144, 255, 0.25),
+                0 0 200px rgba(30, 144, 255, 0.25),
+                0 0 300px rgba(30, 144, 255, 0.1),
+                0 0 400px rgba(30, 144, 255, 0.05);
+            border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+        }
+
+        #homeImg {
+            border-radius: 20px;
+        }
+
+        #lines {
+            height: 0px;
+            border: 0.01px solid rgba(255, 255, 255, 0.2);
+            width: 100%;
+        }
+
+        #tools {
+            line-height: 0px;
+            border: none;
+            height: 70px;
+            background-color: transparent;
+            width: 100%;
+        }
+
+        #tools p {
+            margin-bottom: 25px;
+        }
+
+        #tools_explain {
+            margin-left: 30px;
+            color: rgb(100, 100, 100);
+            font-size: 15px;
+        }
+
+        #tools_name {
+            margin-left: 30px;
+            color: white;
+            font-size: 25px;
+        }
+
+        #tools_name a:hover {
+            color: rgb(102, 153, 255);
+        }
+
+        /*#navbut1{
+		color:white;
+		font-weight:900;
+		border: 2px solid #fff;
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25),  
+        	0 0 300px rgba(30,144,255,0.1),  
+        	0 0 400px rgba(30,144,255,0.05);
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+	}*/
+        #homeImg {
+            cursor: pointer;
+        }
+
+        #bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            -o-object-fit: cover;
+            object-fit: cover;
+            -webkit-filter: blur(10px);
+            filter: blur(10px);
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+
+        #copyright {
+            text-align: center;
+            line-height: 10px;
+            font-weight: 100;
+        }
+
+        #introduce {
+            height: 150px;
+        }
+
+        #intro_left_1st {
+            line-height: 0px;
+            margin-left: 50px;
+            position: absolute;
+            left: 0px;
+        }
+
+        #intro_left_2st {
+            line-height: 30px;
+            margin-right: 50px;
+            position: absolute;
+            left: 40%;
+        }
+
+        #intro_left_3st {
+            line-height: 30px;
+            margin-right: 50px;
+            position: absolute;
+            left: 60%;
+        }
+
+        #intro_left_4st {
+            line-height: 30px;
+            margin-right: 50px;
+            position: absolute;
+            right: 10%;
+        }
+
+        #intro_left_1st img {
+            height: 60px;
+        }
+
+        #intro_left_1st p {
+            font-size: 25px;
+            font-weight: 600;
+            color: rgba(27, 46, 94, 1);
+        }
+
+        #introduce span {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+
+    <div id="nav">
+        <p>
+            <span id="navname1">Satorna</span>
+            &nbsp;&nbsp;
+            <button id="navbut1" onclick="window.open('https://satorna.github.io/','_self')">首页</button>
+            <button id="navbut2" onclick="window.open('https://satorna.github.io/role','_self')">角色</button>
+            <button id="navbut3" onclick="window.open('https://satorna.github.io/weapon','_self')">武器</button>
+            <button id="navbut4" onclick="window.open('https://satorna.github.io/material','_self')">物资</button>
+            <button id="navbut5" onclick="window.open('https://satorna.github.io/world','_self')">世界</button>
+            <button id="navbut6" onclick="window.open('https://satorna.github.io/litart','_self')">文艺馆</button>
+        <div>
+            <button id="navbut_user">登 录</button>
+        </div>
+        </p>
+    </div>
+
+    <br><br><br>
+
+    <div id="text">
+
+        <div id="title" align="center">
+            <p id="title_don">用户协议</p>
+        </div>
+        <div class="intro">
+
+            <div id="texte">
+                <p id="texte_chi">
+                    欢迎您来到Satorna世界！在您开始探索这个虚拟土星世界之前，我们诚挚地邀请您阅读以下用户协议。本协议旨在确保您在游戏中的体验愉快且公平，同时保护我们的权益和游戏的正常运行。
+                    <br><br>
+                    一、接受协议
+                    <br>
+                    1.1 当您创建Satorna账户、购买游戏、下载客户端、访问官方网站或使用任何与Satorna相关的服务时，即表示您已同意遵守本协议的所有条款和条件。
+                    <br>
+                    1.2 游戏团队有权随时修改本协议，并在修改后的协议在官方网站公布后生效。您应当定期查看本协议以了解最新的条款和条件。
+                    <br><br>
+                    二、账户安全
+                    <br>
+                    2.1 您有责任保护自己的账户信息和密码的安全，并对使用您账户进行的所有活动负责。您同意，任何通过您账户进行的活动都将被视为由您本人进行，您将为这些活动承担全部责任。
+                    <br>
+                    2.2 您不得转让、出售或以其他方式处置您的账户，除非游戏团队明确允许。
+                    <br><br>
+                    三、用户行为
+                    <br>
+                    3.1 您在游戏中必须遵守所有适用的法律法规和游戏团队制定的游戏规则。任何违法或违规行为都可能导致您的账户被封禁或删除。
+                    <br>
+                    3.2 您在游戏中不得进行任何形式的欺凌、骚扰或歧视行为，包括但不限于使用粗俗语言、发布恶意信息、进行人身攻击等。
+                    <br>
+                    3.3 您在游戏中不得使用任何形式的作弊软件或外挂程序，包括但不限于自动点击器、透视挂、无敌挂等。拥有管理员权限的用户可合理地使用规定范围内的站内代码外挂，但仅供测试、调试游戏使用。
+                    <br><br>
+                    四、知识产权
+                    <br>
+                    4.1
+                    游戏中的所有内容，包括但不限于团队原创的：角色、场景、音乐、图像、文字等，都受版权法和其他相关法律的保护。未经游戏团队书面许可，您不得复制、修改、翻译、汇编、反向工程、反汇编或其他方式转化游戏内容。
+                    <br>
+                    4.2 您在游戏中的成果，归您所有。但游戏团队有权在游戏中展示这些成果，并在合理范围内使用这些成果进行宣传和推广。
+                    <br><br>
+                    五、免责声明
+                    <br>
+                    详见本网站《免责声明》
+                    <br><br>
+                    六、法律适用和争议解决
+                    <br>
+                    6.1 本协议受中华人民共和国法律管辖和解释。因本协议引起的或与本协议有关的任何争议，双方应首先通过友好协商解决；协商不成的，任何一方均有权向游戏团队所在地的人民法院提起诉讼。
+                    <br>
+                    6.2 本协议中的任何条款无论因何种原因被判定为无效或不可执行，其余条款的效力不受影响，仍应继续履行。若因本协议引起的争议适用法律规定的诉讼时效期间为一年。
+                    <br><br>
+                    七、其他条款
+                    <br>
+                    7.1 本协议构成双方之间关于使用Satorna游戏的完整协议，并取代了以前的所有口头或书面的协议或理解。如果本协议中的任何条款与以前的游戏团队公告或声明相冲突，则以本协议的条款为准。
+                    <br>
+                    7.2 游戏团队未行使或执行本协议中的任何权利或规定，并不构成对该权利或规定的放弃。任何放弃必须经游戏团队书面确认。
+                    <br>
+                    7.3 本协议中的标题仅为方便阅读而设，不影响本协议的解释。
+                </p>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <footer id="bottom_div">
+        <div id="br"></div>
+        <div id="br"></div>
+        <div id="br"></div>
+        <div id="introduce">
+            <div id="intro_left_1st">
+                <div id="br"></div>
+                <div id="br"></div>
+                <img src="https://satorna.github.io/image/webIcon.png" />
+                <p>开放世界生存冒险类游戏</p>
+                <div id="br"></div>
+            </div>
+            <div id="intro_left_2st">
+                <p>
+                    <span>游戏攻略</span><br>
+                    <a href="https://satorna.github.io/intro/survivalwt.html">● 生存指南</a><br>
+                    <a href="https://satorna.github.io/intro/travelwt.html">● 旅行指南</a><br>
+                    <a href="https://satorna.github.io/intro/extrawt.html">● 进阶教程</a><br>
+                </p>
+                <div id="br"></div>
+            </div>
+            <div id="intro_left_3st">
+                <p>
+                    <span>关于我们</span><br>
+                    <a href="https://satorna.github.io/intro/gameintro.html">● 游戏介绍</a><br>
+                    <a href="https://satorna.github.io/intro/groupintro.html">● 团队介绍</a><br>
+                </p>
+                <div id="br"></div>
+            </div>
+            <div id="intro_left_4st">
+                <p>
+                    <span>服务协议</span><br>
+                    <a href="https://satorna.github.io/seragr/eula.html">● 用户协议</a><br>
+                    <a href="https://satorna.github.io/seragr/disclaimer.html">● 免责声明</a><br>
+                </p>
+                <div id="br"></div>
+            </div>
+        </div>
+        <div id="lines"></div>
+        <div id="copyright">
+            <div id="br"></div>
+            <p>所有内容纯属虚构，与现实无关，敬请理性看待</p>
+            <p>版权所有 © 2023 Dorn Games</p>
+            <p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a> | Github : <a
+                    href="https://github.com/satorna">@satorna</a></p>
+            <div id="br"></div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
