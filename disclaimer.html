@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Satorna | 免责声明</title>
+	<link rel="icon" href="https://satorna.github.io/image/webIcon.png">
+	<style>
+		@charset "utf-8";
+body{
+		width:100%;
+		height:100%;
+		background-color:rgb(226, 226, 236);
+    	justify-content: center;
+    	align-items: center;
+	}
+	::-webkit-scrollbar {
+    display: none;
+}
+	#nav{
+		position:absolute;
+		top:0px;
+		left:0px;
+		width:100%;
+		height:75px;
+		background-color:rgba(27, 46, 94, 0.957);
+		position:fixed;
+	}
+	#navname1{
+		margin-left:50px;
+		font-weight:900;
+		background-color:transparent;
+		text-shadow: 0 0 10px rgba(30,144,255,0.95),
+        	0 0 20px rgba(30,144,255,0.80),  
+        	0 0 30px rgba(30,144,255,0.65),  
+        	0 0 40px rgba(30,144,255,0.4),        
+        	0 0 100px rgba(30,144,255,0.2),  
+        	0 0 200px rgba(30,144,255,0.1),  
+        	0 0 300px rgba(30,144,255,0.05);
+		color:#ffffff;
+		font-size:30px;
+	}
+	#navname2{
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.15),  
+        	0 0 40px rgba(30,144,255,0.1),        
+        	0 0 100px rgba(30,144,255,0.1),  
+        	0 0 200px rgba(30,144,255,0.05),  
+        	0 0 300px rgba(30,144,255,0.05);
+    	/*color: #fff;*/
+		font-weight:900;
+		width:300px;
+		height:50px;
+		font-size:30px;
+		/*background-color:rgb(102,153,255);*/
+		border: 0px solid #000;
+		/*-webkit-text-stroke:1px #1e90ff;*/
+		border-radius:12px;
+		/*border-image: linear-gradient(to top right, #ffa500, #2d3436, #1565c0) 1;*/
+		text-shadow: 0 0 10px #1e90ff,
+        	0 0 20px #1e90ff,  
+        	0 0 30px #1e90ff,  
+        	0 0 40px #1e90ff,        
+        	0 0 100px #1e90ff,  
+        	0 0 200px #1e90ff,  
+        	0 0 300px #1e90ff,  
+        	0 0 400px #1e90ff;
+	}
+	#navbut1,#navbut2,#navbut3,#navbut4,#navbut5,#navbut6,#navbut7,#navbut8,#navbut9{
+		width:80px;
+		color:white;
+		position:absolute;
+		top:0px;
+		height:75px;
+		background:transparent;
+		border:none;
+		position:stalic;
+		outline:none;
+	}
+	#navbut1{margin-left:5px;}
+	#navbut2{margin-left:85px;}
+	#navbut3{margin-left:165px;}
+	#navbut4{margin-left:245px;}
+	#navbut5{margin-left:325px;}
+	#navbut6{margin-left:405px;}
+	#navbut7{margin-left:485px;}
+	#navbut8{margin-left:565px;}
+	#navbut9{margin-left:645px;}
+	#navbut1:hover,#navbut2:hover,#navbut3:hover,#navbut4:hover,#navbut5:hover,#navbut6:hover,#navbut7:hover,#navbut8:hover,#navbut9:hover{
+		font-weight:900;
+		color:white;
+		font-weight:900;
+		border: 2px solid #fff;
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25),  
+        	0 0 300px rgba(30,144,255,0.1),  
+        	0 0 400px rgba(30,144,255,0.05);
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+	}
+	#navbut_user{
+		font-size:15px;
+		font-weight:100;
+		position:absolute;
+		top:50%;
+		margin-top:-22.5px;
+		right:50px;
+		position:stalic;
+		width:100px;
+		color:rgb(255,255,255);
+		height:45px;
+		background-color: rgba(23, 38, 78, 0.957);
+		border-radius:50px;
+		border:none;
+		position:stalic;
+	}
+	button:hover{cursor:pointer;}
+	#text{
+		font-weight:100;
+		color:rgb(0, 0, 0);
+	}
+	sup{font-size:10px;}
+	#title{line-height:0px;}
+	/*#texte{margin-left:15%;}*/
+	#title_don{font-size:40px;text-indent: 24px;}
+	#title_chi{font-size:30px;text-indent: 24px;}
+	#texte_don{font-size:18px;text-indent:24px;}
+	#texte_chi{font-size:15px;text-indent:24px;line-height: 32px;margin-left: 3%;margin-right: 3%;}
+	#bottom_div{
+		background-color:#00000133;
+		text-align:center;
+		width:100%;
+		color:rgb(255, 255, 255);
+		font-size:15px;
+		-webkit-text-stroke: 0.2px rgba(65, 92, 227, 0.651);
+	}
+	a{text-decoration:none;color:rgb(255, 255, 255);text-shadow: 2px 2px 5px rgba(30,144,255,0.5);}
+	#br{height:5px;}
+	#bg{position: fixed;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;-o-object-fit: cover;object-fit: cover;-webkit-filter: blur(10px);filter: blur(10px);-webkit-transform: scale(1.2);transform: scale(1.2);}
+	.intro{
+		border:3px solid #1e90ff;
+		width:83.33%;
+		margin:auto;
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25),  
+        	0 0 300px rgba(30,144,255,0.1),  
+        	0 0 400px rgba(30,144,255,0.05);
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+	}
+	#homeImg{
+		border-radius:20px;
+	}
+	#lines{
+		height:0px;
+		border:0.01px solid rgba(255,255,255,0.2);
+		width:100%;
+	}
+	#tools{
+		line-height:0px;
+		border:none;
+		height:70px;
+		background-color:transparent;
+		width:100%;
+	}
+	#tools p{margin-bottom:25px;}
+	#tools_explain{margin-left:30px;color:rgb(100,100,100);font-size:15px;}
+	#tools_name{margin-left:30px;color:white;font-size:25px;}
+	#tools_name a:hover{color:rgb(102,153,255);}
+	/*#navbut1{
+		color:white;
+		font-weight:900;
+		border: 2px solid #fff;
+		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+        	0 0 20px rgba(30,144,255,0.25),  
+        	0 0 30px rgba(30,144,255,0.25),  
+        	0 0 40px rgba(30,144,255,0.25),        
+        	0 0 100px rgba(30,144,255,0.25),  
+        	0 0 200px rgba(30,144,255,0.25),  
+        	0 0 300px rgba(30,144,255,0.1),  
+        	0 0 400px rgba(30,144,255,0.05);
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+	}*/
+	#homeImg{cursor:pointer;}
+	#bg{position: fixed;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;-o-object-fit: cover;object-fit: cover;-webkit-filter: blur(10px);filter: blur(10px);-webkit-transform: scale(1.2);transform: scale(1.2);}
+	#copyright{text-align:center;line-height: 10px;font-weight: 100;}
+	#introduce{height:150px;}
+	#intro_left_1st{
+		line-height:0px;
+		margin-left:50px;
+		position:absolute;
+		left:0px;
+	}
+	#intro_left_2st{
+		line-height:30px;
+		margin-right:50px;
+		position:absolute;
+		left:40%;
+	}#intro_left_3st{
+		line-height:30px;
+		margin-right:50px;
+		position:absolute;
+		left:60%;
+	}#intro_left_4st{
+		line-height:30px;
+		margin-right:50px;
+		position:absolute;
+		right:10%;
+	}
+	#intro_left_1st img{height:60px;}
+	#intro_left_1st p{font-size:25px;font-weight:600;color:rgba(27, 46, 94, 1);}
+	#introduce span{font-weight:600;}
+	</style>
+</head>
+<body>
+<br>
+
+<div id="nav">
+	<p>
+		<span id="navname1">Satorna</span>
+		&nbsp;&nbsp;
+		<button id="navbut1" onclick="window.open('https://satorna.github.io/','_self')">首页</button>
+		<button id="navbut2" onclick="window.open('https://satorna.github.io/role','_self')">角色</button>
+		<button id="navbut3" onclick="window.open('https://satorna.github.io/weapon','_self')">武器</button>
+		<button id="navbut4" onclick="window.open('https://satorna.github.io/material','_self')">物资</button>
+		<button id="navbut5" onclick="window.open('https://satorna.github.io/world','_self')">世界</button>
+		<button id="navbut6" onclick="window.open('https://satorna.github.io/litart','_self')">文艺馆</button>
+		<div>
+			<button id="navbut_user">登 录</button>
+		</div>
+	</p>
+</div>
+
+<br><br><br>
+
+<div id="text">
+	
+	<div id="title" align="center">
+		<p id="title_don">免责声明</p>
+	</div>
+	<div class="intro">
+		
+		<div id="texte">
+			<p id="texte_chi">
+				Satorna（星环少女，以下简称“本游戏”）游戏以虚拟土星世界为主题，由多恩游戏（DornGames，以下简称“游戏团队”）基于3D引擎平台开发，是一款商业化、二次元风格的开放世界生存冒险游戏。玩家可以在游戏中探索土星及其卫星的奇妙世界，体验生存冒险的乐趣。
+				<br><br>
+				免责声明：
+				<br><br>
+				一、本游戏以虚构的方式呈现土星及其卫星的奇妙世界，不涉及任何真实事件或人物。游戏中的场景、角色、道具等都是虚构的，玩家不应将游戏中的内容与现实世界相混淆。因沉溺虚拟世界而引发的任何问题，游戏团队不承担责任。
+				<br><br>
+				二、玩家在游戏中需要遵守游戏规则和法律法规。如果玩家在游戏中使用不当言行、攻击他人、作弊等行为，游戏方有权采取相应的处罚措施，包括但不限于封号、撤销游戏资格等。对此造成的后果应由玩家自行承担，游戏团队不承担责任。
+				<br><br>
+				三、本游戏以商业化运营为目的，游戏中的角色、道具等都需要通过购买或参与活动获得。玩家需要自行承担购买本游戏内虚拟物品所产生的费用，同时游戏方不承诺任何购买物品的退换货服务。购买操作无法撤回，对此造成的一切后果应由玩家自行承担，游戏团队不承担责任（对于技术问题，游戏团队则将在本游戏内予以虚拟物品补偿）。
+				<br><br>
+				四、本游戏使用3D引擎开发，可能会存在一些技术问题或缺陷，如偶发性的游戏画面卡顿、崩溃等。如果遇到这些问题，玩家可以联系游戏方进行反馈和解决，但游戏方不承担任何金钱赔偿或金钱补偿责任，但将酌情在本游戏内予以虚拟物品补偿。
+				<br><br>
+				五、本游戏以虚拟土星世界为主题，但并不代表游戏方对任何政治、宗教、种族等敏感问题进行宣传或表达。玩家在游戏中需要遵守社会公德和道德规范，不进行任何涉及政治、宗教、种族等敏感问题的言行。若言行不当，对此造成的后果应由玩家自行承担，游戏团队不承担责任。
+			</p>
+		</div>
+	</div>
+	<br>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<footer id="bottom_div">
+	<div id="br"></div><div id="br"></div><div id="br"></div>
+	<div id="introduce">
+		<div id="intro_left_1st">
+			<div id="br"></div><div id="br"></div>
+			<img src="https://satorna.github.io/image/webIcon.png"/>
+			<p>开放世界生存冒险类游戏</p>
+			<div id="br"></div>
+		</div>
+		<div id="intro_left_2st">
+			<p>
+			<span>游戏攻略</span><br>
+			<a href="https://satorna.github.io/intro/survivalwt.html">● 生存指南</a><br>
+			<a href="https://satorna.github.io/intro/travelwt.html">● 旅行指南</a><br>
+			<a href="https://satorna.github.io/intro/extrawt.html">● 进阶教程</a><br>
+			</p>
+			<div id="br"></div>
+		</div>
+		<div id="intro_left_3st">
+			<p>
+			<span>关于我们</span><br>
+			<a href="https://satorna.github.io/intro/gameintro.html">● 游戏介绍</a><br>
+			<a href="https://satorna.github.io/intro/groupintro.html">● 团队介绍</a><br>
+			</p>
+			<div id="br"></div>
+		</div>
+		<div id="intro_left_4st">
+			<p>
+			<span>服务协议</span><br>
+			<a href="https://satorna.github.io/seragr/eula.html">● 用户协议</a><br>
+			<a href="https://satorna.github.io/seragr/disclaimer.html">● 免责声明</a><br>
+			</p>
+			<div id="br"></div>
+		</div>
+	</div>
+	<div id="lines"></div>
+	<div id="copyright">
+		<div id="br"></div>
+		<p>所有内容纯属虚构，与现实无关，敬请理性看待</p>
+		<p>版权所有 © 2023 Dorn Games</p>
+		<p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a> | Github : <a href="https://github.com/satorna">@satorna</a></p>
+		<div id="br"></div>
+	</div>
+</footer>
+
+</body>
+</html>
