@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>Satorna | 免责声明</title>
-	<link rel="icon" href="https://satorna.github.io/image/webIcon.png">
-	<style>
-		@charset "utf-8";
+    <link rel="icon" href="https://satorna.github.io/image/webIcon.png"/>
+	<link rel="stylesheet" href="https://satorna.github.io/css/nav.css"/>
+	<link rel="stylesheet" href="https://satorna.github.io/css/footer.css"/>
+	<link rel="stylesheet" href="https://satorna.github.io/css/homePicArea.css"/>
+	<script src="https://satorna.github.io/js/main.js"></script>
+    <style>
+        @charset "utf-8";
 body{
 		width:100%;
 		height:100%;
@@ -15,119 +19,18 @@ body{
 	::-webkit-scrollbar {
     display: none;
 }
-	#nav{
-		position:absolute;
-		top:0px;
-		left:0px;
-		width:100%;
-		height:75px;
-		background-color:rgba(27, 46, 94, 0.957);
-		position:fixed;
-	}
-	#navname1{
-		margin-left:50px;
-		font-weight:900;
-		background-color:transparent;
-		text-shadow: 0 0 10px rgba(30,144,255,0.95),
-        	0 0 20px rgba(30,144,255,0.80),  
-        	0 0 30px rgba(30,144,255,0.65),  
-        	0 0 40px rgba(30,144,255,0.4),        
-        	0 0 100px rgba(30,144,255,0.2),  
-        	0 0 200px rgba(30,144,255,0.1),  
-        	0 0 300px rgba(30,144,255,0.05);
-		color:#ffffff;
-		font-size:30px;
-	}
-	#navname2{
-		box-shadow: 0 0 10px rgba(30,144,255,0.25),
-        	0 0 20px rgba(30,144,255,0.25),  
-        	0 0 30px rgba(30,144,255,0.15),  
-        	0 0 40px rgba(30,144,255,0.1),        
-        	0 0 100px rgba(30,144,255,0.1),  
-        	0 0 200px rgba(30,144,255,0.05),  
-        	0 0 300px rgba(30,144,255,0.05);
-    	/*color: #fff;*/
-		font-weight:900;
-		width:300px;
-		height:50px;
-		font-size:30px;
-		/*background-color:rgb(102,153,255);*/
-		border: 0px solid #000;
-		/*-webkit-text-stroke:1px #1e90ff;*/
-		border-radius:12px;
-		/*border-image: linear-gradient(to top right, #ffa500, #2d3436, #1565c0) 1;*/
-		text-shadow: 0 0 10px #1e90ff,
-        	0 0 20px #1e90ff,  
-        	0 0 30px #1e90ff,  
-        	0 0 40px #1e90ff,        
-        	0 0 100px #1e90ff,  
-        	0 0 200px #1e90ff,  
-        	0 0 300px #1e90ff,  
-        	0 0 400px #1e90ff;
-	}
-	#navbut1,#navbut2,#navbut3,#navbut4,#navbut5,#navbut6,#navbut7,#navbut8,#navbut9{
-		width:80px;
-		color:white;
-		position:absolute;
-		top:0px;
-		height:75px;
-		background:transparent;
-		border:none;
-		position:stalic;
-		outline:none;
-	}
-	#navbut1{margin-left:5px;}
-	#navbut2{margin-left:85px;}
-	#navbut3{margin-left:165px;}
-	#navbut4{margin-left:245px;}
-	#navbut5{margin-left:325px;}
-	#navbut6{margin-left:405px;}
-	#navbut7{margin-left:485px;}
-	#navbut8{margin-left:565px;}
-	#navbut9{margin-left:645px;}
-	#navbut1:hover,#navbut2:hover,#navbut3:hover,#navbut4:hover,#navbut5:hover,#navbut6:hover,#navbut7:hover,#navbut8:hover,#navbut9:hover{
-		font-weight:900;
-		color:white;
-		font-weight:900;
-		border: 2px solid #fff;
-		box-shadow: 0 0 10px rgba(30,144,255,0.25),
-        	0 0 20px rgba(30,144,255,0.25),  
-        	0 0 30px rgba(30,144,255,0.25),  
-        	0 0 40px rgba(30,144,255,0.25),        
-        	0 0 100px rgba(30,144,255,0.25),  
-        	0 0 200px rgba(30,144,255,0.25),  
-        	0 0 300px rgba(30,144,255,0.1),  
-        	0 0 400px rgba(30,144,255,0.05);
-		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
-	}
-	#navbut_user{
-		font-size:15px;
-		font-weight:100;
-		position:absolute;
-		top:50%;
-		margin-top:-22.5px;
-		right:50px;
-		position:stalic;
-		width:100px;
-		color:rgb(255,255,255);
-		height:45px;
-		background-color: rgba(23, 38, 78, 0.957);
-		border-radius:50px;
-		border:none;
-		position:stalic;
-	}
 	button:hover{cursor:pointer;}
 	#text{
 		font-weight:100;
-		color:rgb(0, 0, 0);
+		color:black;
 	}
 	sup{font-size:10px;}
 	#title{line-height:0px;}
 	/*#texte{margin-left:15%;}*/
-	#title_don{font-size:40px;text-indent: 24px;}
-	#title_chi{font-size:30px;text-indent: 24px;}
+	#title_don{font-size:40px;}
+	#title_chi{font-size:30px;}
 	#texte_don{font-size:18px;text-indent:24px;}
-	#texte_chi{font-size:15px;text-indent:24px;line-height: 32px;margin-left: 3%;margin-right: 3%;}
+	#texte_chi{font-size:15px;text-indent:24px;}
 	#bottom_div{
 		background-color:#00000133;
 		text-align:center;
@@ -136,14 +39,16 @@ body{
 		font-size:15px;
 		-webkit-text-stroke: 0.2px rgba(65, 92, 227, 0.651);
 	}
-	a{text-decoration:none;color:rgb(255, 255, 255);text-shadow: 2px 2px 5px rgba(30,144,255,0.5);}
+	a{text-decoration:none;color:rgb(255, 255, 255);text-shadow: 2px 2px 5px rgba(255,144,155,0.5);}
 	#br{height:5px;}
-	#bg{position: fixed;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;-o-object-fit: cover;object-fit: cover;-webkit-filter: blur(10px);filter: blur(10px);-webkit-transform: scale(1.2);transform: scale(1.2);}
+	#bg{position: fixed;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;-o-object-fit: cover;object-fit: cover;-webkit-filter: blur(0px);filter: blur(0px);-webkit-transform: scale(1);transform: scale(1);}
 	.intro{
-		border:3px solid #1e90ff;
-		width:83.33%;
-		margin:auto;
-		box-shadow: 0 0 10px rgba(30,144,255,0.25),
+		
+		width:50%;
+		margin:left;padding: 10px;
+        margin-left: 25px;
+		/*border:3px solid #1e90ff;
+        box-shadow: 0 0 10px rgba(30,144,255,0.25),
         	0 0 20px rgba(30,144,255,0.25),  
         	0 0 30px rgba(30,144,255,0.25),  
         	0 0 40px rgba(30,144,255,0.25),        
@@ -151,7 +56,7 @@ body{
         	0 0 200px rgba(30,144,255,0.25),  
         	0 0 300px rgba(30,144,255,0.1),  
         	0 0 400px rgba(30,144,255,0.05);
-		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
+		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;*/
 	}
 	#homeImg{
 		border-radius:20px;
@@ -172,57 +77,31 @@ body{
 	#tools_explain{margin-left:30px;color:rgb(100,100,100);font-size:15px;}
 	#tools_name{margin-left:30px;color:white;font-size:25px;}
 	#tools_name a:hover{color:rgb(102,153,255);}
-	/*#navbut1{
-		color:white;
-		font-weight:900;
-		border: 2px solid #fff;
+	#homeImg{cursor:pointer;}
+	#copyright{text-align:center;line-height: 10px;font-weight: 100;}
+	#introduce{height:150px;}
+	#introduce span{font-weight:600;}
+    #errorImg{
+		border-radius:200px;
 		box-shadow: 0 0 10px rgba(30,144,255,0.25),
         	0 0 20px rgba(30,144,255,0.25),  
         	0 0 30px rgba(30,144,255,0.25),  
         	0 0 40px rgba(30,144,255,0.25),        
         	0 0 100px rgba(30,144,255,0.25),  
-        	0 0 200px rgba(30,144,255,0.25),  
-        	0 0 300px rgba(30,144,255,0.1),  
-        	0 0 400px rgba(30,144,255,0.05);
-		border-image: linear-gradient(to top right, #1565c0, #000, #1565c0) 3;
-	}*/
-	#homeImg{cursor:pointer;}
-	#bg{position: fixed;top: 0;left: 0;z-index: -1;width: 100%;height: 100%;-o-object-fit: cover;object-fit: cover;-webkit-filter: blur(10px);filter: blur(10px);-webkit-transform: scale(1.2);transform: scale(1.2);}
-	#copyright{text-align:center;line-height: 10px;font-weight: 100;}
-	#introduce{height:150px;}
-	#intro_left_1st{
-		line-height:0px;
-		margin-left:50px;
-		position:absolute;
-		left:0px;
+        	0 0 200px rgba(30,144,255,0.25);
+        width: 15%;
+        height: 15%;
+        display: none;
 	}
-	#intro_left_2st{
-		line-height:30px;
-		margin-right:50px;
-		position:absolute;
-		left:40%;
-	}#intro_left_3st{
-		line-height:30px;
-		margin-right:50px;
-		position:absolute;
-		left:60%;
-	}#intro_left_4st{
-		line-height:30px;
-		margin-right:50px;
-		position:absolute;
-		right:10%;
-	}
-	#intro_left_1st img{height:60px;}
-	#intro_left_1st p{font-size:25px;font-weight:600;color:rgba(27, 46, 94, 1);}
-	#introduce span{font-weight:600;}
-	</style>
+    </style>
 </head>
 <body>
 <br>
-
+<img src="C:\Users\dell\Desktop\编程\代码岛\DornGames\SATORNA\图片\免责声明.jpg" id="bg"/>
 <div id="nav">
 	<p>
-		<span id="navname1">Satorna</span>
+		
+		<span id="navname1"><img src="https://satorna.github.io/image/TransparentLogo.png" id="logo" onclick="location.reload();"/></span>
 		&nbsp;&nbsp;
 		<button id="navbut1" onclick="window.open('https://satorna.github.io/','_self')">首页</button>
 		<button id="navbut2" onclick="window.open('https://satorna.github.io/role','_self')">角色</button>
@@ -239,15 +118,11 @@ body{
 <br><br><br>
 
 <div id="text">
-	
-	<div id="title" align="center">
-		<p id="title_don">免责声明</p>
-	</div>
 	<div class="intro">
 		
 		<div id="texte">
 			<p id="texte_chi">
-				Satorna（星环少女，以下简称“本游戏”）游戏以虚拟土星世界为主题，由多恩游戏（DornGames，以下简称“游戏团队”）基于3D引擎平台开发，是一款商业化、二次元风格的开放世界生存冒险游戏。玩家可以在游戏中探索土星及其卫星的奇妙世界，体验生存冒险的乐趣。
+				Satorna（以下简称“本游戏”）游戏以虚拟土星世界为主题，由多恩游戏（DornGames，以下简称“游戏团队”）基于3D引擎平台开发，是一款商业化、二次元风格的开放世界科幻游戏。玩家可以在游戏中探索土星及其卫星的奇妙世界，体验生存冒险的乐趣。
 				<br><br>
 				免责声明：
 				<br><br>
@@ -274,7 +149,8 @@ body{
 		<div id="intro_left_1st">
 			<div id="br"></div><div id="br"></div>
 			<img src="https://satorna.github.io/image/webIcon.png"/>
-			<p>开放世界生存冒险类游戏</p>
+			<img src="https://satorna.github.io/image/TransparentLogo.png" id="footer_logo"/>
+			<p>开 放 世 界 科 幻 游 戏</p>
 			<div id="br"></div>
 		</div>
 		<div id="intro_left_2st">
@@ -306,8 +182,8 @@ body{
 	<div id="lines"></div>
 	<div id="copyright">
 		<div id="br"></div>
-		<p>所有内容纯属虚构，与现实无关，敬请理性看待</p>
-		<p>版权所有 © 2023 Dorn Games</p>
+		<p>健康游戏忠告：抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。</p>
+		<p>版权所有 © 2024 多恩星环DornGames   |   All right reserved.</p>
 		<p>Box3Pro : <a href="https://dao3.fun/profile/50450184">@DornGames</a> | Github : <a href="https://github.com/satorna">@satorna</a></p>
 		<div id="br"></div>
 	</div>
